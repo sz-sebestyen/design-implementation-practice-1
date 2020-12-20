@@ -16,10 +16,18 @@ $gray: #cfc5bb;
 $orange: #ee481e;
 
 :root {
-
+	font-size: 16px;
 }
 
 body {
+	background-color: $darkgreen;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: $skin;
+}
+
+h1, h2, h3 {
 	font-family: 'Playfair Display', serif;
-	//font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: $white;
 }
