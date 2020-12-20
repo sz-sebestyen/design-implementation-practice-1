@@ -12,34 +12,34 @@ https://www.behance.net/gallery/108406185/BOHO
 
 #### Contents
 
-- Landingpage
-- - Top left bag icon
-- - top boho title
-- - top right burger menu
-- - title background image
-- - BOHO studio title
+##### Landingpage
+- Top left bag icon
+- top boho title
+- top right burger menu
+- title background image
+- BOHO studio title
 
-- Bouquets page
-- - Bouquets title
-- - image
-- - go to catalog link
+##### Bouquets page
+- Bouquets title
+- image
+- go to catalog link
 
-- Decoration page
-- - Decoration title
-- - image
-- - go to portfolio link
+##### Decoration page
+- Decoration title
+- image
+- go to portfolio link
 
-- Gifts page
-- - Gifts title
-- - image
-- - go to catalog link
+##### Gifts page
+- Gifts title
+- image
+- go to catalog link
 
-- Footer
-- - BOHO studio title
-- - Menu title
-- - list of navigation links
-- - contacts title
-- - list of contacts
-- - row of icons for social medias
-- - copyright
+##### Footer
+- BOHO studio title
+- Menu title
+- list of navigation links
+- contacts title
+- list of contacts
+- row of icons for social medias
+- copyright
 
