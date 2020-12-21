@@ -9,6 +9,10 @@
 	line-height: 1;
 }
 
+ul {
+	list-style: none;
+}
+
 // colors
 $white: #f5f1e9;
 $darkgreen: #2a2f2b;
@@ -37,7 +41,7 @@ section.page-container {
 	height: 100vh;
 
 	div.image-container {
-		margin: 0 14%;
+		margin: 0 14vw;
 		height: 50%;
 
 		img {
@@ -55,3 +59,47 @@ section.page-container {
 
 @import "landingpage";
 @import "bouquets";
+
+footer#footer {
+	display: grid;
+	grid-template-columns: 50% 50%;
+	grid-template-rows: auto auto auto auto;
+	grid-template-areas: 
+		"title     title    "
+		"menu      contacts "
+		"socials   socials  "
+		"copyright copyright"
+	;
+	background-color: lighten($darkgreen, 10%);
+	padding: 10px;
+
+	div#footer-title-container {
+		grid-area: title;
+		padding: 14vw 0;
+		font-family: 'Playfair Display', serif;
+		font-weight: 400;
+		// appears bolder than needed, don't know why
+
+		h4#footer-boho-title {
+			text-transform: uppercase;
+			font-size: 4rem;
+
+		}
+	}
+
+	div#footer-menu-container {
+		grid-area: menu;
+	}
+
+	div#footer-contacts-container {
+		grid-area: contacts;
+	}
+
+	div#footer-socials {
+		grid-area: socials;
+	}
+
+	div#copyright {
+		grid-area: copyright;
+	}
+}
