@@ -1,0 +1,59 @@
+h2.page-title {
+	text-align: center;
+	font-size: 3.5rem;
+	letter-spacing: 0.1em;
+	padding: .6em 0;
+}
+
+div.circle {
+	position: relative;
+	width: 8rem;
+	height: 8rem;
+	border: 1px solid $white;
+	border-radius: 99em;
+	margin: -1.75rem 7% 0 auto;
+
+	div.circle-content {
+		position: absolute;
+		top: 28%;
+		left: 50%;
+
+		div.link-description {
+			font-size: .9rem;
+			letter-spacing: .25em;
+			line-height: 1.3;
+		}
+
+		div.arrow-container {
+			height: 1.3rem;
+			width: 3ex;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+
+			div.arrow {
+				position: relative;
+				height: 2px;
+				background-color: $white;
+
+				&::before,
+				&::after {
+					content: "";
+					position: absolute;
+					top: 0;
+					right: 0;
+					height: 100%;
+					width: 40%;
+					display: block;
+					background-color: inherit;
+					transform-origin: right center;
+					transform: rotate(45deg);
+				}
+
+				&::after {
+					transform: rotate(-45deg);
+				}
+			}
+		}
+	}
+}
