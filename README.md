@@ -43,3 +43,35 @@ https://www.behance.net/gallery/108406185/BOHO
 - row of icons for social medias
 - copyright
 
+### Desktop
+
+#### Contents
+
+##### Landingpage
+- no burger menu
+- mobile navbar replaced with navigation links
+- shoping cart icon is on the right side along with prifile and a heart
+- horizontaly long picture
+- different title placement
+
+
+##### Bouquets page
+- same picture
+- title is partially on the pic
+- plus subtitle
+
+
+##### Decoration page
+- different pic
+- title right aligned
+
+
+##### Gifts page
+- plus pic
+- title left aligned
+- plus subtitle
+- link is no longer on the right side
+
+
+##### Footer
+- different grid areas
