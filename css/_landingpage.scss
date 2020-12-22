@@ -2,12 +2,14 @@ nav#nav {
 	position: fixed;
 	top: 0;
 	left: 0;
+	z-index: 99;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	padding: 0.8em 6%;
 	letter-spacing: 0.1em;
+	background-color: $darkgreen;
 
 	h3#nav-boho-title {
 		font-size: 1.6rem;
@@ -50,6 +52,15 @@ nav#nav {
 				margin-top: 4px;
 			}
 		}
+	}
+
+	div#nav-line {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: -1px;
+		height: 2px;
+		background-image: linear-gradient(to right, $darkgreen, rgba($color: $white, $alpha: 0.5), $darkgreen);
 	}
 }
 
