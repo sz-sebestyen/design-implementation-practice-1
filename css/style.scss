@@ -89,28 +89,15 @@ footer#footer {
 	
 	div#footer-menu-container {
 		grid-area: menu;
-		
-		h4#footer-menu-title {
-			text-transform: uppercase;
-			font-size: 1.6rem;
-			font-family: 'Playfair Display', serif;
-			font-weight: 400;
-			padding: 1rem 0;
-		}
-
-		ul#footer-menu-list {
-			li {
-				margin: 1em 0;
-				font-size: .85rem;
-				color: $white;
-			}
-		}
 	}
 
 	div#footer-contacts-container {
 		grid-area: contacts;
-
-		h4#footer-contacts-title {
+	}
+	
+	div#footer-menu-container,
+	div#footer-contacts-container {
+		h4#footer-list-title {
 			text-transform: uppercase;
 			font-size: 1.6rem;
 			font-family: 'Playfair Display', serif;
@@ -118,9 +105,8 @@ footer#footer {
 			padding: 1rem 0;
 		}
 		
-		ul#footer-contacts-list {
+		ul#footer-list {
 			li {
-				// text-align: right;
 				margin: 1em 0;
 				font-size: .85rem;
 				color: $white;
